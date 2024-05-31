@@ -9,10 +9,15 @@ app.use('/img', express.static(path.resolve(__dirname, 'img')));
 
 let data = [
     {
-        usuario: '',
-        email: '',
-        contraseña: ''
-    }
+        usuario: 'nico',
+        email: 'ni.torres@gmail.com',
+        contraseña: 'torres'
+    },
+    {
+      usuario: 'carlos',
+      email: 'carlosavello18@gmail.com',
+      contraseña: 'avello'
+  }
 ]
   
 app.use(express.json());
